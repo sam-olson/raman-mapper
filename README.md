@@ -70,6 +70,8 @@ If the user selected a heatmap option, a heatmap editing window will appear belo
 - Final picture width (the width that the picture will be when saved, in pixels - the height is calculated automatically to preserve aspect ratio)
 - Interpolation method for resizing (PIL configs that determine how pixel colors are decided when resizing an image)
 
+![heatmap editor](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_heatmap_editor.png)
+
 The changes can be viewed in real time by pressing the "Update" button. If you wish to keep the same scalebars over many maps for comparison, you may save/load them in a template using the respective buttons (see the `templates` folder for examples). Areas that did not pass the signal-to-noise ratio filter will appear as black in the heatmap
 
 ## Data Format
