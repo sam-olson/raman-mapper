@@ -10,7 +10,7 @@ Features of `raman-mapper` include:
 
 The base UI:
 
-![raman gui](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_overview.png)
+![raman gui](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_overview.png | width=500)
 
 The aim of this software is to allow end users greater control and customization over their Raman maps, along with greater accuracy made possible by fitting Lorentzian distributions and removing noisy signals. It also allows for saving of heatmap templates, something that is very useful for comparing disparate growths for publications.
 
@@ -41,11 +41,11 @@ python3 app.py
 
 Once the GUI appears, the user must select a file to analyze. This can be accomplished by pressing the "Open" button and navigating to the appropriate file. Once a file is selected, the path will appear in the blank space next to the "Open" button. There is also a drop-down menu to allow for selection of material, this is currently not implemented but in the future the GUI will support further materials.
 
-![gui load](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_load_file.png)
+![gui load](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_load_file.png | width=500)
 
 After a file has been loaded, the user can filter out noisy spectra by providing a signal-to-noise threshold. The signal-to-noise is calculated by taking the standard deviation of a region of the spectrum known to not have peaks (for graphene this is between the G and 2D peaks), and dividing the maximum peak height by this number. The default value is 15, which turns out to do a pretty good job of screening spectra consisting of just noise. If you feel that the algorithm is rejecting good peaks (or you want to know what the bad peaks look like), select the "Save bad spectra?" box, and each rejected spectra will be saved as a .png in the same directory as the map for your review. The filtering function also fits Lorentzians to each peak of non-filtered functions, and removes the baseline, so this can take a bit of time if the data set is large (>5 MB).
 
-![gui filter](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_filtering.png)
+![gui filter](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_filtering.png | width=500)
 
 After the data has been filtered appropriately, you can enter relevant information about the growth such as:
 - Material 
@@ -54,7 +54,7 @@ After the data has been filtered appropriately, you can enter relevant informati
 - Further growth details
 
 
-![gui characteristics](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_characteristics.png)
+![gui characteristics](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_characteristics.png | width=500)
 
 These notes will be saved in a text file in the final data directory.
 
@@ -67,7 +67,7 @@ The last area of the default GUI section consists of several checkboxes that all
 - Summary statistics (mean/stdev/max/min of peak ratios/locations)
 
 
-![gui analysis](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_analysis.png)
+![gui analysis](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_analysis.png | width=500)
 
 Hit the run button to perform the selected actions, and `raman-mapper` will create a data directory in the same directory as the map. This directory will contain the final results.
 
