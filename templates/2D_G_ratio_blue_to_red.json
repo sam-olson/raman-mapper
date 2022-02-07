@@ -1,0 +1,10 @@
+{
+    "statistic": "ratio_2dg",
+    "min_val": 0.0,
+    "max_val": 2.0,
+    "gradient": 100,
+    "resize_method": 3,
+    "start_col": "blue",
+    "end_col": "red",
+    "save_width": 200
+}

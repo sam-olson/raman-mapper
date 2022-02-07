@@ -1,0 +1,15 @@
+MATERIAL
+----------
+Graphene
+
+DATE/TIME SYNTHESIZED
+----------
+2022/01/30 13:00
+
+GROWTH METHOD
+----------
+CVD
+
+GROWTH DETAILS
+----------
+Growth performed on Ni catalyst at 450C for 5 minutes. Gas flow: 0.1 sccm C2H2, 1 sccm H2
