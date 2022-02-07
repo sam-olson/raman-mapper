@@ -8,6 +8,9 @@ Features of `raman-mapper` include:
 - Creating/modifying heatmaps of spectra statistics
 - Creating histograms and summary statistics of map information
 
+The base UI:
+![raman gui](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_overview.png)
+
 The aim of this software is to allow end users greater control and customization over their Raman maps, along with greater accuracy made possible by fitting Lorentzian distributions and removing noisy signals. It also allows for saving of heatmap templates, something that is very useful for comparing disparate growths for publications.
 
 ## Raman Spectroscopy
