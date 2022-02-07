@@ -22,9 +22,9 @@ Raman spectroscopy is a non-destructive analytical technique used to determine p
 3. The shifted laser light is collected and dispersed into separate "buckets" collected via a CCD array
 4. Intensities for each bucket are recorded and displayed as Intensity vs. Wavenumber (or Raman shift)
 
-Peaks in intensity typically correspond to known bond energies in materials. e [Lorentzian (Cauchy) distributions](https://en.wikipedia.org/wiki/Cauchy_distribution) can be fit to these peaks, with parameters of the distribution giving information about the material properties.
+Peaks in intensity typically correspond to known bond energies in materials. [Lorentzian (Cauchy) distributions](https://en.wikipedia.org/wiki/Cauchy_distribution) can be fit to these peaks, with parameters of the distribution giving information about the material properties.
 
-In addition to capturing single Raman spectra, it is frequently useful to obtain Raman "maps" wherein many spectra are created while moving the sample stage by fractions of a micron. These maps give a better idea of how consistent the properties of nano-scale materials are over small distances.
+In addition to single Raman spectra, it is frequently useful to obtain Raman "maps" wherein many spectra are captured while moving the sample stage by fractions of a micron. These maps give a better idea of how consistent the properties of nano-scale materials are over small distances.
 
 ### Graphene Raman Spectroscopy
 Most of my research focuses on graphene, a single atomic layer of carbon atoms arranged in a 2D hexagonal pattern, first isolated by [K.S. Novoselov and A.K. Geim in 2004](https://www.science.org/doi/10.1126/science.1102896).  In my lab, we [synthesize graphene using Chemical Vapor Deposition (CVD)](https://avs.scitation.org/doi/10.1116/1.5144692) and so need a quick, non-destructive method to determine how well (or how poorly) a growth recipe performed. 
