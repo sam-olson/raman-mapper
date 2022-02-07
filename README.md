@@ -72,7 +72,9 @@ If the user selected a heatmap option, a heatmap editing window will appear belo
 
 ![heatmap editor](https://github.com/sam-olson/raman-mapper/blob/main/img/gui_heatmap_editor.png)
 
-The changes can be viewed in real time by pressing the "Update" button. If you wish to keep the same scalebars over many maps for comparison, you may save/load them in a template using the respective buttons (see the `templates` folder for examples). Areas that did not pass the signal-to-noise ratio filter will appear as black in the heatmap
+The changes can be viewed in real time by pressing the "Update" button. If you wish to keep the same scalebars over many maps for comparison, you may save/load them in a template using the respective buttons (see the `templates` folder for examples). Areas that did not pass the signal-to-noise ratio filter will appear as black in the heatmap.
+
+Press the "Save Images" button at the bottom of the window to save the heatmaps to the data folder.
 
 ## Data Format
 `raman-mapper` is designed to accept Raman map files from HORIBA LabSpec software, in either .txt or .csv formats. The LabSpec software saves the data in a format where the first two columns are the X and Y position of the sample stage, and the first row is the wavenumber (X-axis of each spectrum). Therefore each subsequent row is a unique spectrum, with the XY position given by the first two columns, and the wavenumbers given by the first row. I am unsure if this is industry standard or just how HORIBA saves the results. If you know of a different format, please let me know.
